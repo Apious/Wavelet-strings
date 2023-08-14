@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Wavelet</string>
-    <string name="no_active_sessions">노래가 재생중인 상태가 아닙니다</string>
-    <string name="single_user_warning">시스템 유저 권한으로 앱을 설치해주세요</string>
-    <string name="warning_library_null">%s 효과를 Wavelet이 인스턴스화 할 수 없습니다</string>
-    <string name="warning_no_browser">URL 열 수 없음 %s</string>
+    <string name="no_active_sessions">플레이어가 재생중인 상태가 아니예요</string>
+    <string name="single_user_warning">시스템 유저 권한으로 앱을 설치 해주세요</string>
+    <string name="warning_library_null">Wavelet이 %s 효과를 인스턴스화 할 수 없네요</string>
+    <string name="warning_no_browser">URL 열기 안되요 %s</string>
     <string name="warning_billing_service">Error %d: 결제 서비스 사용 불가능</string>
     <string name="paid_feature">모든 기능 활성화 : %s</string>
     <string name="unlock">구매</string>
 
-    <string name="purchase_dialog_title">Upgrade your experience</string>
-    <string name="purchase_dialog_text">Your audio experience could be even better for %s</string>
-    <string name="purchase_dialog_refund">Google Play ensures a <annotation url="refund">48h money-back guarantee</annotation> for you to try all features</string>
-    <string name="purchase_dialog_positive">Buy now</string>
-    <string name="purchase_dialog_negative">Later</string>
+    <string name="purchase_dialog_title">당신의 경험을 업그레이드 하세요</string>
+    <string name="purchase_dialog_text">%s의 경우 오디오 환경이 훨씬 더 좋아질 수 있어요.</string>
+    <string name="purchase_dialog_refund">Google Play 는<annotation url="refund">48시간 환불 보장</annotation> 모든 기능을 사용해 보세요.</string>
+    <string name="purchase_dialog_positive">지금 구매</string>
+    <string name="purchase_dialog_negative">나중에</string>
 
-    <string name="restricted_warning_text">Wavelet can not work properly if battery usage is set to \'restricted\'</string>
+    <string name="restricted_warning_text">배터리 사용이 다음으로 설정되어 있으면 Wavelet이 제대로 작동하지 않아요. \'restricted\'</string>
     <string name="open_settings">Fix it</string>
 
     <!-- Settings -->
-    <string name="wavelet_toggle">Wavelet on/off</string>
-    <string name="settings_title">Settings</string>
+    <string name="wavelet_toggle">Wavelet 온/오프</string>
+    <string name="settings_title">설정</string>
     <string name="settings_legacy_mode">레거시 모드</string>
-    <string name="settings_dump_permission">DUMP permission</string>
-    <string name="settings_notification_access">Notification access</string>
-    <string name="settings_permission_granted">Permission granted</string>
-    <string name="settings_permission_denied">Permission denied</string>
+    <string name="settings_dump_permission">덤프 권한</string>
+    <string name="settings_notification_access">알림 액세스</string>
+    <string name="settings_permission_granted">권한 승인됨</string>
+    <string name="settings_permission_denied">권한 거부됨</string>
     <string name="menu_help">도움말</string>
-    <string name="settings_buffer_size">Buffer size</string>
+    <string name="settings_buffer_size">버퍼 크기</string>
     <string name="clipping_over_latency">레이턴시보다 클리핑이 우선</string>
     <string name="latency_over_clipping">클리핑보다 레이턴시가 우선</string>
-    <string name="setting_enhanced_session_title">Enhanced session detection</string>
-    <string name="setting_enhanced_session_summary">Both permissions are required</string>
+    <string name="setting_enhanced_session_title">향상된 세션 감지</string>
+    <string name="setting_enhanced_session_summary">두 권한이 모두 필요해요.</string>
 
     <!-- Foreground Service notification -->
     <string name="service_channel_name">Wavelet 서비스</string>
@@ -46,8 +46,8 @@
     <string name="device_bluetooth">Bluetooth</string>
     <string name="device_hearing_aid">보청기</string>
     <string name="device_usb">USB</string>
-    <string name="device_android_auto">Android Auto</string>
-    <string name="device_chrome_os">Chrome OS</string>
+    <string name="device_android_auto">안드로이드 오토</string>
+    <string name="device_chrome_os">크롬 OS</string>
 
     <!-- Preference strings -->
     <string name="reset">초기화</string>
@@ -84,7 +84,7 @@
     <string name="limiter_release_time">릴리즈 타임</string>
     <string name="limiter_ratio">비율</string>
     <string name="limiter_threshold">스레숄드</string>
-    <string name="limiter_automatic_post_gain">Automatic post-gain</string>
+    <string name="limiter_automatic_post_gain">자동 포스트-게인</string>
     <string name="limiter_post_gain">포스트 게인</string>
     <string name="channel_balance_title">채널 밸런스</string>
     <string name="channel_balance_left_gain">왼쪽</string>
@@ -116,5 +116,5 @@
     <string name="unit_milliseconds">ms</string>
     <string name="unit_decibel">dB</string>
     <string name="unit_hertz">Hz</string>
-    <string name="unit_samples">samples</string>
+    <string name="unit_samples">샘플</string>
 </resources>
